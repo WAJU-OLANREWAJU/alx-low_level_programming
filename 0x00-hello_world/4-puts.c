@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -writing a line of  code that prints using puts in place of printf
+ * main - writing a line of  code that prints using puts in place of printf
  *
  * Return: 0
 */

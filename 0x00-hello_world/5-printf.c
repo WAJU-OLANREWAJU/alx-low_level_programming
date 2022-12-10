@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main -writing  a line of code that prints with printf instead of puts
+ * main -Print a C program using printf
  *
- * Return =0
+ * Return: 0
 */
-
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
