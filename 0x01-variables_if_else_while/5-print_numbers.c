@@ -9,11 +9,11 @@
 int main(void)
 
 {
-	int a = 0;
+	int a;
 
-	while (a < 10)
-	{	printf("%d", a);
-		a = a + 1;
+	for (a = 0; a < 10; a++)
+	{	
+		printf("%d", a);
 	}
 	
 	printf('\n');
