@@ -8,10 +8,14 @@
 int main(void)
 
 {
-	int n;
+	int num;
+	char letter;
 
-	for (n = 0; n < 16; n++)
-		putchar("%d", n);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
 	putchar('\n');
 
