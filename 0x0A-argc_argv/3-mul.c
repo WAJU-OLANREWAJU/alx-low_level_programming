@@ -20,15 +20,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	/*
-	 * for (i = 1; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-		mul = mul * argv[i];
-	}
-	}
-	else
-	*/
 	x = atoi(argv[1]);
 	y = atoi(argv[2]);
 
