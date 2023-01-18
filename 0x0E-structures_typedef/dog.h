@@ -1,21 +1,18 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef DOG
+#define DOG
 
 /*
- * main - this program defines a struct.
- *
- *Return: Always 0
+ * struct_dog - dog
+ * @name: Name of dog
+ * @age: Age of dog
+ * @owner: Ownwer of dog
  */
 
 struct dog
 {
 char *name;
 float age;
-char *owner;
+char *owner
 };
 
-int main(void)
-{
-
-return (0);
-}
+#endif
