@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * add_node - adds a new node at the beginning
@@ -20,12 +20,11 @@ list_t *add_node(list_t **head, const char *str)
 	newNode->str = stdrup(str);
 
 	for (n = 0; str[n]; n++)
-
 		;
 
 	newNode->len = n;
 	newNode->next = *head;
 	*head = newNode;
 
-	return (head);
+	return (*head);
 }
