@@ -9,13 +9,12 @@ include "lists.h"
 
 size_t listint_len(const listint_t *h)
 {
-	const listint_t *current = h;
 	size_t count = 0;
 
-	while (current != NULL)
+	while (h != NULL)
 	{
+		h = h->next;
 		count++;
-		current = current->next;
 	}
 	return (count);
 }
